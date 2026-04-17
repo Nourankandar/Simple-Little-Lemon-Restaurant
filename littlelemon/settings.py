@@ -45,9 +45,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'restaurant',
     'rest_framework.authtoken',
-    # 'djoser',
-    'menu',       
-    'accounts',
+    'djoser',
 ]
 
 MIDDLEWARE = [
@@ -65,7 +63,7 @@ ROOT_URLCONF = 'littlelemon.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
