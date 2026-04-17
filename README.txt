@@ -4,7 +4,7 @@ Description:
 This project is a Django-based REST API for managing restaurant table bookings 
 connected to a MySQL database.
 
-API Paths for Testing (Important for Reviewers):
+API Paths for Testing :
 ----------------------------------------------
 1. Table Bookings Endpoint:
    URL: http://127.0.0.1:8000/api/bookings/
